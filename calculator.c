@@ -27,19 +27,43 @@
 double add(double a, double b) {
     return a + b;
 }
+// Code for 14. Natural Exponent (e^x)
+/*
+  Code Written By Rengaraj R
+  Written on Windows 10 15-05-2021 17:55
+  input  double 
+  returns double
+*/
+double naturalExponent( double number)
+{
+    double answer;
+    answer = exp(number);
+    return answer;
+}
+
 
 double multiply(double a , double b)
 {
     return a*b;
 }
+
+double squareroot(double a){
+    return sqrt(a);
+}
 // Insert your code below
+#include<stdio.h>
+
+void ceiling(float x)
+{scanf("%f",x);
+int ceil;
+ceil=x/1;
+if(ceil<=0) 
+printf("the ceil of the number %d is %d",x,ceil);
+else
+ceil+=1;
+printf("the ceil of the number %d is %d",x,ceil);
+}
 
 int main() {
-    // Initialize variables
-
-    // Prompt user for input
-
-    // Perform appropriate function
-
-    // Terminate program after finishing tasks
+    add();
 }

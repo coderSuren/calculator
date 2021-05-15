@@ -28,6 +28,17 @@ if choice == 1:
     result = a + b
 
     print("The sum is", result)
+    
+if choice == 2:
+    print("Enter the number you'd like to subtract: ")
+    x = int(input())
+    y = int(input())
+    if x>y:
+        result = x - y
+    else:
+        result = y - x
+    
+    print("The remainder is: ", result)
 
 # Fill the rest of the functionality here!
 # 2. Subtraction
@@ -47,5 +58,17 @@ if choice == 6:
 # 8. Tangent
 # 9. Floor
 # 10. Ceiling
+#include<stdio.h>
+
+if choice==10;
+{scanf("%f",x);
+int ceil;
+ceil=x/1;
+if(ceil<=0) 
+printf("the ceil of the number %d is %d",x,ceil);
+else
+ceil=ceil+1;
+printf("the ceil of the number %d is %d",x,ceil);
+}
 # 11. Round
 # 12. Absolute value
