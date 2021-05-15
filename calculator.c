@@ -67,3 +67,12 @@ printf("the ceil of the number %d is %d",x,ceil);
 int main() {
     add();
 }
+
+void Tangent ()
+{
+    float a,result;
+    printf("enter angle in radians");
+    scanf("%f",&a);
+    result = tan(a);
+    printf("%f",result);
+}
