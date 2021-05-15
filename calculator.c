@@ -24,9 +24,8 @@
 // 14. Natural exponent (e^x)
 
 // Sample code for 1. Add
-double add(double a, double b) {
-    return a + b;
-}
+//double add(double a, double b) {
+ //   return a + b;
 
 // Insert your code below
 
@@ -39,3 +38,7 @@ int main() {
 
     // Terminate program after finishing tasks
 }
+double add(double a, double b) {
+    return a + b;
+}
+
