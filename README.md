@@ -39,3 +39,6 @@ git push origin main
 
 - sridhar-5
 - Tina Choudary Y
+
+
+Added naturalExponential Function Rengaraj R
