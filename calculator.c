@@ -28,14 +28,14 @@ double add(double a, double b) {
     return a + b;
 }
 
-// Insert your code below
+double percentage(double a,double b){
+    return a % b;
+}
 
 int main() {
-    // Initialize variables
-
-    // Prompt user for input
-
-    // Perform appropriate function
-
-    // Terminate program after finishing tasks
+    float a,b,d;
+    scanf("%f %f",&a,&b);
+    d=percentage(a,b);
+    printf("%f",d);
+    return 0;
 }
