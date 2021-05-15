@@ -24,22 +24,36 @@
 // 14. Natural exponent (e^x)
 
 // Sample code for 1. Add
+
+//double add(double a, double b) {
+ //   return a + b;
+
+
 double add(double a, double b) {
     return a + b;
 }
+
+
 // Code for 14. Natural Exponent (e^x)
+
+
 /*
   Code Written By Rengaraj R
   Written on Windows 10 15-05-2021 17:55
   input  double 
   returns double
 */
+
+
+
+
 double naturalExponent( double number)
 {
     double answer;
     answer = exp(number);
     return answer;
 }
+
 
 
 double multiply(double a , double b)
@@ -64,6 +78,14 @@ ceil+=1;
 printf("the ceil of the number %d is %d",x,ceil);
 }
 
+
+    // Terminate program after finishing tasks
+}
+double add(double a, double b) {
+    return a + b;
+}
+
 int main() {
     add();
 }
+
