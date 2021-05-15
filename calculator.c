@@ -41,6 +41,12 @@ double naturalExponent( double number)
     return answer;
 }
 
+
+double multiply(double a , double b)
+{
+    return a*b;
+}
+
 double squareroot(double a){
     return sqrt(a);
 }
